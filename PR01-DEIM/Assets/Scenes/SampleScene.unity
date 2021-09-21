@@ -331,8 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87e8952f2549c740948450e207e6df4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  num1: 18
-  num2: 10
+  numElegido: 10
 --- !u!135 &1656625641
 SphereCollider:
   m_ObjectHideFlags: 0
