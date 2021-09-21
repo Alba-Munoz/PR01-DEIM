@@ -18,6 +18,15 @@ public class esfera : MonoBehaviour
 
         for (int aleatorio2 = 0; aleatorio2 != numElegido; aleatorio2 = Random.Range(0, 55))
         {
+            if(aleatorio2 < 15)
+            {
+
+            }
+            else if (aleatorio2 > 33)
+            {
+
+            }
+        
             print("Aleatorio FOR" + aleatorio2);
         }
     }
