@@ -331,11 +331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87e8952f2549c740948450e207e6df4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  n: 113
-  d: 8.06
-  nombre: Sara
-  up: 0
-  down: 1
+  num1: 18
+  num2: 10
 --- !u!135 &1656625641
 SphereCollider:
   m_ObjectHideFlags: 0

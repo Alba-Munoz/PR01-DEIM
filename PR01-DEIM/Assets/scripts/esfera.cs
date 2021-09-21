@@ -4,25 +4,29 @@ using UnityEngine;
 
 public class esfera : MonoBehaviour
 {
-    [SerializeField]int n = 8;
-    [SerializeField]float d = 8f;
-    [SerializeField]string nombre;
-    [SerializeField]bool up = false;
-    [SerializeField]bool down = true;
+    [SerializeField]int num1;
+    [SerializeField]int num2 ;
+    private float resultado;
+   
     // Start is called before the first frame update
     void Start()
     {
-        print(n);
-        print(nombre);
-        print(d);
-        print(up);
-        print(down);
 
+        resultado = num1 * num2;
+        print(resultado);
+        Multiplicar(num1, num2);
+
+        float Multiplicar(float num1, float num2)
+        {
+            resultado = num1 * num2;
+            print("Resultado" + resultado);
+            return resultado;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
