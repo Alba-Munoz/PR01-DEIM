@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class esfera : MonoBehaviour
 {
-    int n = 8;
-    float d = 8f;
-    string nombre;
-    bool up = false;
-    bool down = true;
+    [SerializeField]int n = 8;
+    [SerializeField]float d = 8f;
+    [SerializeField]string nombre;
+    [SerializeField]bool up = false;
+    [SerializeField]bool down = true;
     // Start is called before the first frame update
     void Start()
     {
-        print(n = 7);
-        print(nombre =" Ana ");
-        print(5.5f);
+        print(n);
+        print(nombre);
+        print(d);
         print(up);
+        print(down);
+
     }
 
     // Update is called once per frame
