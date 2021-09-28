@@ -9,26 +9,9 @@ public class esfera : MonoBehaviour
      // Start is called before the first frame update
     void Start()
     {
-        /*while (aleatorio != numElegido)
+        for(int aleatorio = 0; aleatorio != numElegido; aleatorio = Random.Range(0 , 20))
         {
-            aleatorio = Random.Range(0 , 55);
             print(aleatorio);
-        }*/
-
-
-        for (int aleatorio2 = 0; aleatorio2 != numElegido; aleatorio2 = Random.Range(0, 55))
-        {
-            if(aleatorio2 < 15)
-            {
-                print("es menor que 15");
-            }
-            else if (aleatorio2 > 33)
-            {
-                print("es mayor que 33");
-            }
-        
-           
-
         }
     }
 
