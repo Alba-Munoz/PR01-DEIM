@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class calculadora : MonoBehaviour
 {
+
+    [SerializeField] string calcular;
+     [SerializeField]int num1;
+     [SerializeField]int num2;
     // Start is called before the first frame update
     void Start()
     {
-        Calcular(125.6f, 587f, "dividir");
+        Calcular(num1, num2, calcular);
     }
 
     // Update is called once per frame
