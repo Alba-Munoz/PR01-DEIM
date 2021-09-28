@@ -4,23 +4,24 @@ using UnityEngine;
 
 public class esfera : MonoBehaviour
 {
-    int aleatorio = 0;
+    
     [SerializeField] int numElegido;
+    [SerializeField] string nombre;
      // Start is called before the first frame update
     void Start()
     {
-        for(int aleatorio = 0; aleatorio != numElegido; aleatorio = Random.Range(0 , 20))
-        {
-            print(aleatorio);
-        }
+        Saludo(nombre);
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
 
-       
 
+    void Saludo(string nombre)
+    {
+        print("hola " + nombre);
     }
 }
